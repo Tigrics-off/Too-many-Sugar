@@ -12,7 +12,7 @@
   <Description>Syntactic sugar, functional helpers, and collection extensions for C#.</Description>
   <PackageTags>csharp;extensions;sugar;linq;helpers</PackageTags>
   <RepositoryUrl>https://github.com/Tigrics-off/TooManySugar</RepositoryUrl>п
-  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  <PackageLicenseExpression>licence</PackageLicenseExpression>
 </PropertyGroup>
 
 </Project>
