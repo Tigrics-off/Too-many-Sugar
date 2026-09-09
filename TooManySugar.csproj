@@ -6,13 +6,17 @@
   <Nullable>enable</Nullable>
 
   <PackageId>TooManySugar</PackageId>
-  <Version>1.0.0</Version>
+  <Version>1.0.1</Version>
   <Authors>Tigrics</Authors>
   <Company>Tigrics</Company>
   <Description>Syntactic sugar, functional helpers, and collection extensions for C#.</Description>
   <PackageTags>csharp;extensions;sugar;linq;helpers</PackageTags>
   <RepositoryUrl>https://github.com/Tigrics-off/TooManySugar</RepositoryUrl>
-  <PackageLicenseExpression>licence</PackageLicenseExpression>
+  <PackageLicenseFile>licence</PackageLicenseFile>
 </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="licence" Pack="true" PackagePath="" />
+  </ItemGroup>
 
 </Project>

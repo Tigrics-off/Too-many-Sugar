@@ -115,13 +115,5 @@ public static class Core
     {
         (a, b) = (b, a);
     }
-    public static List<int> GenArr(int left, int right)
-    {
-        List<int> result = new List<int>();
-        for (int i = left; i <= right; i++)
-        {
-            result.Add(i);
-        }
-        return result;
-    }
+    public static List<int> GenArr(int left, int right) => Enumerable.Range(left, right - left + 1).ToList();
 }
