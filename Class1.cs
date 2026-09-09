@@ -1,7 +1,7 @@
 ﻿namespace TooManySugar;
 
 using System.Collections;
-public static class IntegerExtensions
+public static class Extensions
 {
     public static double Pow(this double bas, double pow)
     {
@@ -38,9 +38,6 @@ public static class IntegerExtensions
             return inp;
         }
     }
-}
-public static class StringExtensions
-{
     public static string Dubl(this string str, int times)
     {
         if (string.IsNullOrEmpty(str) || times <= 0) return String.Empty;
@@ -83,9 +80,6 @@ public static class StringExtensions
         Array.Reverse(arr);
         return new string(arr);
     }
-}
-public static class FunctionalExtensions
-{
     public static void Times(this Action action, int times)
     {
         for (int i = 0; i < times; i++) action();
@@ -94,9 +88,7 @@ public static class FunctionalExtensions
     {
         for (int i = 0; i < times; i++) action(i);
     }
-}
-public static class CollectionExtensions
-{
+
     public static string Join<T>(this IEnumerable<T> coll, string separ = " ")
     {
         return string.Join(separ, coll);
@@ -114,6 +106,8 @@ public static class CollectionExtensions
     {
         return $"[{coll.Join(", ")}]";
     }
+    public static bool ToBool(this int val) => val != 0;
+    public static int  ToInt(this bool val) => val ? 1 : 0;
 }
 public static class Core
 {

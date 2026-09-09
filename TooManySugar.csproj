@@ -11,7 +11,7 @@
   <Company>Tigrics</Company>
   <Description>Syntactic sugar, functional helpers, and collection extensions for C#.</Description>
   <PackageTags>csharp;extensions;sugar;linq;helpers</PackageTags>
-  <RepositoryUrl>https://github.com/Tigrics-off/TooManySugar</RepositoryUrl>п
+  <RepositoryUrl>https://github.com/Tigrics-off/TooManySugar</RepositoryUrl>
   <PackageLicenseExpression>licence</PackageLicenseExpression>
 </PropertyGroup>
 
