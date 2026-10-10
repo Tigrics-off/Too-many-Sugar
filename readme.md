@@ -5,11 +5,13 @@
 * Install the library
     ```bash
     dotnet add package TooManySugar
+    ```
 * Import library
     ```csharp
     using TooManySugar.Core;
+    ```
 ## Some functions
-    ```csharp
+```csharp
     // Math & Numbers
     5.Per();                   // 0.05 (5%)
     2.Pow(3);                  // 8.0
